@@ -35,3 +35,53 @@ body{
 .hr{
     width: 90%;
 }
+
+label{
+    color: white;
+    font-weight: bold;
+    margin-left: 5%;
+    /* border-bottom: 2px solid navy; */
+}
+
+.input{
+    margin-top: 5%;
+    border: none;
+
+}
+
+.form_name{
+    margin-left: 27%;
+    border: none;
+}
+
+.form_email{
+    margin-left: 28%;
+    border: none;
+}
+
+.form_password{
+    margin-left: 23%;
+    border: none;
+}
+
+.form_confirm_password{
+    margin-left: 11%;
+    border: none;
+}
+
+.submit_button{
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 1%;
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.form-error{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}

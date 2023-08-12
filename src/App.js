@@ -1,11 +1,11 @@
 import "./App.css";
-import Form from "./components/Form/Form";
+import Forms from "./components/Form/Forms";
 
 function App() {
   return (
     <>
       {/* Importing Form Component */}
-      <Form />
+      <Forms />
     </>
   );
 }
