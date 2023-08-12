@@ -71,7 +71,7 @@ label{
 
 .submit_button{
     width: 70%;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 5%;
     padding: 1%;
     background-color: navy;
@@ -81,7 +81,270 @@ label{
 }
 
 .form-error{
-    color: white;
-    font-weight: bold;
+    color: red;
+    font-weight: 900;
     font-size: 12px;
+    margin-left: 40%;
+}
+
+.control-error{
+    margin-left: 45%;
+}
+
+/* Media Queries */
+
+/* For 992 px */
+
+@media screen and (max-width: 992px) {
+
+    input{
+        width: 15vw;
+    }
+
+    .form_name, .form_email{
+        position: relative;
+        left: 5%;
+    }
+
+    .form_password{
+        position: relative;
+        left: 3%;
+    }
+
+    .flexbox-parent{
+        width: 80vw;
+        height: 80vh;
+        margin: 0 auto;
+        margin-top: 5%;
+        background-color: white;
+        box-shadow: 0px 0px 20px 12px darkgray;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .submit_button{
+        width: 70%;
+        margin-top: 6%;
+        margin-left: 5%;
+        padding: 1%;
+        background-color: navy;
+        color: white;
+        font-weight: bold;
+        border: none;
+    }
+    
+    
+}
+
+
+/* For 768 px */
+
+@media screen and (max-width: 768px) {
+
+    input{
+        width: 30vw;
+    }
+
+    .form_name, .form_email{
+        position: relative;
+        left: 5%;
+    }
+
+    .form_password{
+        position: relative;
+        left: 5%;
+    }
+
+    .form_confirm_password{
+        position: relative;
+        left: 7%;
+    }
+
+    .flexbox-parent{
+        width: 80vw;
+        height: 80vh;
+        margin: 0 auto;
+        margin-top: 5%;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px darkgray;
+        display: block;
+        /* flex-direction: row-reverse !important; */
+        /* justify-content: space-between; */
+    }
+
+    .submit_button{
+        width: 70%;
+        margin-top: 5%;
+        margin-left: 10%;
+        padding: 1%;
+        background-color: navy;
+        color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .flex-child-1{
+        background-color: #6C63FF;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .rocket-img{
+       
+        width: 100%;
+        height: 60vh;
+    }
+
+    .formik-and-yup{
+        text-align: center;
+        color: white;    
+    }
+    
+    
+    
+}
+
+/* For 600 px */
+
+@media screen and (max-width: 600px) {
+
+    input{
+        width: 30vw;
+    }
+
+    .form_name, .form_email{
+        position: relative;
+        left: 9%;
+    }
+
+    .form_password{
+        position: relative;
+        left: 8%;
+    }
+
+    .form_confirm_password{
+        position: relative;
+        left: 7%;
+    }
+
+    .flexbox-parent{
+        width: 80vw;
+        height: 80vh;
+        margin: 0 auto;
+        margin-top: 5%;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px darkgray;
+        display: block;
+        /* flex-direction: row-reverse !important; */
+        /* justify-content: space-between; */
+    }
+
+    .submit_button{
+        width: 70%;
+        margin-top: 5%;
+        margin-left: 10%;
+        padding: 1%;
+        background-color: navy;
+        color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .flex-child-1{
+        background-color: #6C63FF;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .rocket-img{
+       
+        width: 100%;
+        height: 60vh;
+    }
+
+    .formik-and-yup{
+        text-align: center;
+        color: white;    
+    }
+    
+    
+    
+}
+
+/* For 600 px */
+
+@media screen and (max-width: 480px) {
+
+    input{
+        width: 50vw;
+        
+
+}
+
+    .form_name, .form_email{
+        position: relative;
+        left: 0%;
+    }
+
+    .form_password{
+        position: relative;
+        left: 4%;
+    }
+
+    .form_confirm_password{
+        position: relative;
+        left: 17%;
+    }
+
+    .flexbox-parent{
+        width: 80vw;
+        height: 80vh;
+        margin: 0 auto;
+        margin-top: 5%;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px darkgray;
+        display: block;
+        /* flex-direction: row-reverse !important; */
+        /* justify-content: space-between; */
+    }
+
+    .submit_button{
+        width: 70%;
+        margin-top: 5%;
+        margin-left: 15%;
+        padding: 1%;
+        background-color: navy;
+        color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+    .flex-child-1{
+        background-color: #6C63FF;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .rocket-img{
+       
+        width: 100%;
+        height: 60vh;
+    }
+
+    .formik-and-yup{
+        text-align: center;
+        color: white;    
+    }
+
+    label{
+        display: none;
+    }
+
+    .input{
+        margin-right: 30%;
+        
+    }
+    
+    
+    
 }

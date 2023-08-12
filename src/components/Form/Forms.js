@@ -51,7 +51,7 @@ const Forms = () => {
                   onBlur={handleBlur}
                 />
                 {errors.name && touched.name ? (
-                  <p className="form-error">{errors.name}</p>
+                  <p className="form-error control-error">{errors.name}</p>
                 ) : null}
               </div>
               <div className="input">
@@ -68,7 +68,7 @@ const Forms = () => {
                   onBlur={handleBlur}
                 />
                 {errors.email && touched.email ? (
-                  <p className="form-error">{errors.email}</p>
+                  <p className="form-error control-error">{errors.email}</p>
                 ) : null}
               </div>
               <div className="input">
@@ -85,11 +85,11 @@ const Forms = () => {
                   onBlur={handleBlur}
                 />
                 {errors.password && touched.password ? (
-                  <p className="form-error">{errors.password}</p>
+                  <p className="form-error control-error">{errors.password}</p>
                 ) : null}
               </div>
               <div className="input">
-                <label htmlFor="confirm_password">Confirm Password</label>
+                <label htmlFor="confirm_password control-error">Confirm Password</label>
                 <input
                   type="password"
                   autoComplete="off"
